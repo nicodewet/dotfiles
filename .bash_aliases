@@ -1,4 +1,4 @@
-echo Hello Gitpod
-echo Here is my .bash_aliases dotfile
-
+echo Executing .bash_profile as this is a user login shell
+set -x;
 alias gitsha='git rev-parse HEAD'
+set +x;
